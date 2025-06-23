@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XunitTestFramework", "XunitTestFramework\XunitTestFramework.csproj", "{550022AD-B328-414D-8EA3-9E2D0F4FCBEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XunitTestFramework", "src\XunitTestFramework\XunitTestFramework.csproj", "{550022AD-B328-414D-8EA3-9E2D0F4FCBEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E1102964-B867-49A3-B81D-9844CB8B7AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XunitTestFramework.Tests", "tests\XunitTestFramework.Tests\XunitTestFramework.Tests.csproj", "{28310C4E-4BAD-4444-AC40-F8F942758687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,12 @@ Global
 		{550022AD-B328-414D-8EA3-9E2D0F4FCBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{550022AD-B328-414D-8EA3-9E2D0F4FCBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{550022AD-B328-414D-8EA3-9E2D0F4FCBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28310C4E-4BAD-4444-AC40-F8F942758687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28310C4E-4BAD-4444-AC40-F8F942758687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28310C4E-4BAD-4444-AC40-F8F942758687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28310C4E-4BAD-4444-AC40-F8F942758687}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28310C4E-4BAD-4444-AC40-F8F942758687} = {E1102964-B867-49A3-B81D-9844CB8B7AAE}
 	EndGlobalSection
 EndGlobal
